@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		793E3E3E14912F0C0017DDF9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 793E3E3D14912F0C0017DDF9 /* main.cpp */; };
 		793E3E4014912F0C0017DDF9 /* PulseProgrammer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 793E3E3F14912F0C0017DDF9 /* PulseProgrammer.1 */; };
+		79BDFEF814927D0A003FF48C /* StefPulseProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFEF714927D0A003FF48C /* StefPulseProgram.cpp */; };
+		79BDFEFF14929369003FF48C /* GenericPulseProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFEFE14929369003FF48C /* GenericPulseProgram.cpp */; };
+		79BDFF011492938E003FF48C /* PulseData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF001492938E003FF48C /* PulseData.cpp */; };
+		79BDFF04149293F4003FF48C /* AWG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF02149293F4003FF48C /* AWG.cpp */; };
+		79BDFF0714929812003FF48C /* Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF0614929812003FF48C /* Sequence.cpp */; };
+		79BDFF091492B39D003FF48C /* PulseBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF081492B39C003FF48C /* PulseBuffer.cpp */; };
+		79BDFF0D1492B501003FF48C /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF0B1492B500003FF48C /* md5.c */; };
+		79BDFF0F1492B61D003FF48C /* Globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF0E1492B61D003FF48C /* Globals.cpp */; };
+		79BDFF111492BF2B003FF48C /* PlaylistEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF101492BF2A003FF48C /* PlaylistEntry.cpp */; };
+		79BDFF141492D009003FF48C /* MD5Hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BDFF131492D009003FF48C /* MD5Hash.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +38,25 @@
 		793E3E3914912F0C0017DDF9 /* PulseProgrammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PulseProgrammer; sourceTree = BUILT_PRODUCTS_DIR; };
 		793E3E3D14912F0C0017DDF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		793E3E3F14912F0C0017DDF9 /* PulseProgrammer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PulseProgrammer.1; sourceTree = "<group>"; };
+		79BDFEF714927D0A003FF48C /* StefPulseProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StefPulseProgram.cpp; sourceTree = "<group>"; };
+		79BDFEFA14927D1B003FF48C /* StefPulseProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StefPulseProgram.h; sourceTree = "<group>"; };
+		79BDFEFC1492930E003FF48C /* GenericPulseProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericPulseProgram.h; sourceTree = "<group>"; };
+		79BDFEFD14929339003FF48C /* PulseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulseData.h; sourceTree = "<group>"; };
+		79BDFEFE14929369003FF48C /* GenericPulseProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GenericPulseProgram.cpp; sourceTree = "<group>"; };
+		79BDFF001492938E003FF48C /* PulseData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PulseData.cpp; sourceTree = "<group>"; };
+		79BDFF02149293F4003FF48C /* AWG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWG.cpp; sourceTree = "<group>"; };
+		79BDFF03149293F4003FF48C /* AWG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWG.h; sourceTree = "<group>"; };
+		79BDFF051492974C003FF48C /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		79BDFF0614929812003FF48C /* Sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sequence.cpp; sourceTree = "<group>"; };
+		79BDFF081492B39C003FF48C /* PulseBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PulseBuffer.cpp; sourceTree = "<group>"; };
+		79BDFF0A1492B3A7003FF48C /* PulseBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulseBuffer.h; sourceTree = "<group>"; };
+		79BDFF0B1492B500003FF48C /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		79BDFF0C1492B500003FF48C /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		79BDFF0E1492B61D003FF48C /* Globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Globals.cpp; sourceTree = "<group>"; };
+		79BDFF101492BF2A003FF48C /* PlaylistEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaylistEntry.cpp; sourceTree = "<group>"; };
+		79BDFF121492BF35003FF48C /* PlaylistEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistEntry.h; sourceTree = "<group>"; };
+		79BDFF131492D009003FF48C /* MD5Hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MD5Hash.cpp; sourceTree = "<group>"; };
+		79BDFF151492D37E003FF48C /* MD5Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Hash.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +89,27 @@
 		793E3E3C14912F0C0017DDF9 /* PulseProgrammer */ = {
 			isa = PBXGroup;
 			children = (
+				79BDFF0B1492B500003FF48C /* md5.c */,
+				79BDFF0C1492B500003FF48C /* md5.h */,
 				793E3E3D14912F0C0017DDF9 /* main.cpp */,
+				79BDFF051492974C003FF48C /* Sequence.h */,
+				79BDFF0614929812003FF48C /* Sequence.cpp */,
 				793E3E3F14912F0C0017DDF9 /* PulseProgrammer.1 */,
+				79BDFEF714927D0A003FF48C /* StefPulseProgram.cpp */,
+				79BDFF02149293F4003FF48C /* AWG.cpp */,
+				79BDFF03149293F4003FF48C /* AWG.h */,
+				79BDFEFE14929369003FF48C /* GenericPulseProgram.cpp */,
+				79BDFF101492BF2A003FF48C /* PlaylistEntry.cpp */,
+				79BDFF121492BF35003FF48C /* PlaylistEntry.h */,
+				79BDFEFA14927D1B003FF48C /* StefPulseProgram.h */,
+				79BDFEFD14929339003FF48C /* PulseData.h */,
+				79BDFF001492938E003FF48C /* PulseData.cpp */,
+				79BDFF081492B39C003FF48C /* PulseBuffer.cpp */,
+				79BDFF0A1492B3A7003FF48C /* PulseBuffer.h */,
+				79BDFEFC1492930E003FF48C /* GenericPulseProgram.h */,
+				79BDFF0E1492B61D003FF48C /* Globals.cpp */,
+				79BDFF131492D009003FF48C /* MD5Hash.cpp */,
+				79BDFF151492D37E003FF48C /* MD5Hash.h */,
 			);
 			path = PulseProgrammer;
 			sourceTree = "<group>";
@@ -92,6 +140,7 @@
 		793E3E3014912F0C0017DDF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0410;
 				ORGANIZATIONNAME = "University of Oxford";
 			};
 			buildConfigurationList = 793E3E3314912F0C0017DDF9 /* Build configuration list for PBXProject "PulseProgrammer" */;
@@ -117,6 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				793E3E3E14912F0C0017DDF9 /* main.cpp in Sources */,
+				79BDFEF814927D0A003FF48C /* StefPulseProgram.cpp in Sources */,
+				79BDFEFF14929369003FF48C /* GenericPulseProgram.cpp in Sources */,
+				79BDFF011492938E003FF48C /* PulseData.cpp in Sources */,
+				79BDFF04149293F4003FF48C /* AWG.cpp in Sources */,
+				79BDFF0714929812003FF48C /* Sequence.cpp in Sources */,
+				79BDFF091492B39D003FF48C /* PulseBuffer.cpp in Sources */,
+				79BDFF0D1492B501003FF48C /* md5.c in Sources */,
+				79BDFF0F1492B61D003FF48C /* Globals.cpp in Sources */,
+				79BDFF111492BF2B003FF48C /* PlaylistEntry.cpp in Sources */,
+				79BDFF141492D009003FF48C /* MD5Hash.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +186,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -143,7 +202,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -153,7 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -163,7 +222,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -171,14 +231,20 @@
 		793E3E4414912F0C0017DDF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		793E3E4514912F0C0017DDF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -201,6 +267,7 @@
 				793E3E4514912F0C0017DDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
